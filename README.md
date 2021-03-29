@@ -11,8 +11,14 @@ This tool takes recovery phrases for as input from any of those formats, and att
 ### Pre-requisites
 Install nodejs/npm (https://www.npmjs.com/get-npm)
 
+### Clone the repo
+
+```bash
+git clone https://github.com/atul-hedera/key-recovery-tool
+```
+
 ### Configure
-Edit the .env flle in the key-recovery-tool directory. You can use .env.sample as a starter template and provide the URLs for mainnet and testnet mirror nodes. 
+Create and edit the .env flle in the key-recovery-tool directory. You can use the starter template from the `.env.sample` file in the repository, and provide the URLs for mainnet and testnet mirror nodes. 
 *Please note that today, there is no public mirror node for Hedera mainnet*
 
 ### Start the tool
